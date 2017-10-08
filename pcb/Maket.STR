@@ -1,0 +1,48 @@
+[AUTOROUTER]
+Autorouter=PRORoute
+
+[STRATEGY]
+RouteOptions=0 1 1 0
+RouteCptInterval=120
+RouteCopperShare=0
+RouteErrorOutput=2
+RouteOutputFile=F:\Pro\Cartrige\RMaket.PCB
+RouteReportFile=F:\Pro\Cartrige\RMaket.LOG
+RouteAutoPass=1
+RoutePassFlags=1 0 0 0 1 1 1 1 1 1 1
+RoutePassCounts=5 2
+RouteForceMfgFlag=0
+RouteAuxiliary=1
+RouteViaGridX=2
+RouteDefaultViaStyle=(Default)
+RouteDefaultLineWidth=50000
+GridOriginRel=635000app,254000app
+GridModeIsAbsolute=True
+GridVisibleStyleIsDot=True
+GridIsVisible=True
+GridPromptForRel=False
+GridAbsolute=127000app
+GridRelative=127000app
+GridSequence0=127000app
+GridSequence1=84667app 84666app 84667app
+GridSequence2=50000app
+GridSequence3=100000app
+GridSequence4=250000app
+GridSequence5=254000app
+
+[STRATEGY2]
+RoutePassFlags=1 1 1 1 1 1 1 1 1 0 0 0
+RouteDefaultLineWidth=50000app
+GridOriginRel=635000app,254000app
+GridModeIsAbsolute=True
+GridVisibleStyleIsDot=True
+GridIsVisible=True
+GridPromptForRel=False
+GridAbsolute=127000app
+GridRelative=127000app
+GridSequence0=127000app
+GridSequence1=84667app 84666app 84667app
+GridSequence2=50000app
+GridSequence3=100000app
+GridSequence4=250000app
+GridSequence5=254000app
